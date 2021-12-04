@@ -87,6 +87,8 @@ section ul i
 {
     font-family: 'Poppins';
     margin-bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 @media screen and (max-width: 991px)
 {
