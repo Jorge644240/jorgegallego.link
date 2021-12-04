@@ -130,6 +130,7 @@ section ul i
     body
     {
         font-size: 1rem;
+        padding: 5% 1%;
     }
     section
     {
@@ -142,10 +143,6 @@ section ul i
 }
 @media screen and (max-width: 400px)
 {
-    body
-    {
-        padding: 10% 1% 5%;
-    }
     h1
     {
         font-size: 2rem;
