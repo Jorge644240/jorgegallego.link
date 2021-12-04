@@ -34,17 +34,20 @@ h1
     font-family: 'Poppins';
     font-size: 2.5rem;
 }
-section:not(#profile)
+section
 {
     width: 70%;
     margin: 2% auto 0;
-    /* padding: ; */
 }
 h2
 {
     margin-top: 0;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
     font-size: 1.5rem;
+}
+h2 i
+{
+    display: none;
 }
 section ul
 {
@@ -84,4 +87,85 @@ section ul i
 {
     font-family: 'Poppins';
     margin-bottom: 0;
+}
+@media screen and (max-width: 991px)
+{
+    img
+    {
+        max-width: 15%;
+    }
+    section ul
+    {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 767px)
+{
+    img
+    {
+        max-width: 20%;
+    }
+    section ul
+    {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 600px)
+{
+    h2
+    {
+        margin-bottom: 3%;
+    }
+    img
+    {
+        max-width: 25%;
+    }
+    section
+    {
+        width: 85%;
+    }
+}
+@media screen and (max-width: 550px)
+{
+    body
+    {
+        font-size: 1rem;
+    }
+    section
+    {
+        width: 100%;
+    }
+    section ul
+    {
+        width: 95%;
+    }
+}
+@media screen and (max-width: 400px)
+{
+    body
+    {
+        padding: 10% 1% 5%;
+    }
+    h1
+    {
+        font-size: 2rem;
+        margin-bottom: 5%;
+    }
+    h2
+    {
+        margin-bottom: 5%;
+        font-size: 1.3rem;
+    }
+    h2 i
+    {
+        display: inline-block;
+    }
+    section ul
+    {
+        width: 100%;
+    }
+    section li i
+    {
+        display: none;
+    }
 }
