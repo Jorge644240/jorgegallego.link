@@ -1,0 +1,87 @@
+*, ::before, ::after
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2%;
+    font-family: 'Nunito';
+    font-size: 1.1rem;
+}
+section
+{
+    text-align: center;
+}
+a
+{
+    cursor: pointer;
+}
+img
+{
+    max-width: 10%;
+    border-radius: 50%;
+}
+h1
+{
+    margin: 0;
+    font-family: 'Poppins';
+    font-size: 2.5rem;
+}
+section:not(#profile)
+{
+    width: 70%;
+    margin: 2% auto 0;
+    /* padding: ; */
+}
+h2
+{
+    margin-top: 0;
+    margin-bottom: 1%;
+    font-size: 1.5rem;
+}
+section ul
+{
+    width: 50%;
+    margin: 0 auto;
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+section ul a
+{
+    color: inherit;
+    text-decoration: none;
+}
+section ul li
+{
+    padding: 2% 0;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 0 auto 4%;
+    position: relative;
+    box-shadow: 0 0 0.5rem transparent;
+    transition: all 0.2s ease-in-out;
+}
+section ul li:hover
+{
+    background-color: #000000;
+    color: #FFFFFF;
+    box-shadow: 5px 5px 0.5rem #555555;
+    border-color: transparent;
+}
+section ul i
+{
+    position: absolute;
+    left: 2%;
+}
+#copy
+{
+    font-family: 'Poppins';
+    margin-bottom: 0;
+}
