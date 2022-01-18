@@ -68,8 +68,9 @@ section ul li
     border-radius: 10px;
     margin: 0 auto 4%;
     position: relative;
+    cursor: pointer;
     box-shadow: 0 0 0.5rem transparent;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.2s linear;
 }
 section ul li:hover
 {
